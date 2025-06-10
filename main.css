@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding: 25px 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.header__btn{
+    max-width: 256px;
+    width: 100%;
+    border-radius: 12px;
+    background-color: #fc004a;
+    color: #ffffff;
+    font-family: "Inter";
+    font-size: 14.75px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: none;
+}
+.header__list{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+.header__link{
+    color: #000000;
+    font-family: "Inter";
+    font-size: 15.13px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+.header__burger{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.mobile{
+
+}
+
+@media (max-width: 725px){
+    .header__list{
+        display: none;
+    }
+    .header__burger{
+        display: block;
+    }
+} 
+@media (max-width:470px){
+    .logo{
+        display: none;
+    } 
+}
+body{
+    background-color: #fcfcfc;
+}   
+
+.button12{
+    background-color: wheat;
+}
+.main1{
+    margin-right: 30px;
+}
+.container1 img{
+   gap: 30000px;
+   
+
+}
+.section{
+    margin-left: 360px;
+    gap: 3000000px;
+    justify-content: center;
+
+}
+.footer1{
+    margin-left: 280px;
+    display: flex;
+    gap: 600px;
+}
+
+.ragtht{
+
+}
+/* DARK MODE STYLE */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode .header__link {
+    color: #ffffff;
+}
+
+body.dark-mode .header__btn {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .footer1 {
+    color: whi
+}
+
+body.dark-mode .section {
+    background-color: #1e1e1e;
+}
+.butn{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px ;
+    border: 2px solid black;
+    color: white;
+    
+}
